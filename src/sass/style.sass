@@ -3,3 +3,109 @@
 @import "./reset"
 
 $enable-responsive-font-sizes: true
+
+$accent: #EC1F46
+$blue: #0A223D
+$main-black: #333333
+$white-bg: #F5FAFE
+
+body
+    font-family: 'Muli', sans-serif
+
+h2
+
+    font-weight: bold
+    font-size: 36px
+    line-height: 45px
+    text-transform: uppercase
+    color: $main-black
+
+h3
+
+    font-weight: bold
+    font-size: 24px
+    line-height: 45px
+    text-transform: uppercase
+    color: $main-black
+
+h4
+
+    font-weight: bold
+    font-size: 14px
+    line-height: 45px
+    text-transform: uppercase
+    color: $main-black
+
+p
+    font-size: 12px
+    color: $main-black
+    line-height: 15px
+
+.header
+    padding: 24px 0
+    background: #F5FAFE
+
+    &__text
+        font-size: 10px
+        line-height: 13px
+
+    &__icon
+        margin-right: 20px
+
+    &__propositions
+        margin-right: 98px
+
+        &:last-child
+            margin-right: 0px
+
+
+.search
+    padding: 40px 0
+
+    &__logo
+
+
+    &__input
+        width: 350px
+        height: 40px
+        border: 0px
+        background: #F5FAFE
+        border-radius: 6px
+        padding-left: 23px
+
+    &__btn
+        background: url('../img/search.png') no-repeat center top / cover
+        border-radius: 0px 6px 6px 0px
+        width: 65px
+        height: 40px
+
+    &__img
+        margin-right: 18px
+        width: 40px
+        height: 40px
+
+.profile
+    &__cart
+        margin-right: 53px
+    &__menu
+
+
+select
+    background: transparent
+    outline: none
+    border: none
+    text-decoration: none
+    width: 100px
+
+select option
+    color: $main-black
+
+.nav
+    padding: 31px 0
+    background: $blue
+
+    &__link
+        & h4
+            color: white
+
+
