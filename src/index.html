@@ -4,10 +4,69 @@
 <head>
     <meta charset="UTF-8">
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <link href="https://fonts.googleapis.com/css2?family=Muli:wght@400;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
-
+    <header class="header" id="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-8 d-flex">
+                    <p class="header__text">
+                        <strong>Questions? Need Help?</strong> Call us on (+123) 456 1500
+                    </p>
+                </div>
+                <div class="col-4 ml-auto d-flex">
+                    <div class="header__propositions d-flex">
+                        <img src="./img/gift.png" alt="gift" class="header__icon">
+                        <p class="header__text my-auto">BTP Gift Card</p>
+                    </div>
+                    <div class="header__propositions d-flex">
+                        <img src="./img/star.png" alt="gift" class="header__icon">
+                        <p class="header__text my-auto">Loyalty Program</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="search" id="search">
+        <div class="container">
+            <div class="row">
+                <div class="col-3 my-auto">
+                    <img src="./img/logo.png" alt="logo" class="search__logo">
+                </div>
+                <div class="col-4 d-flex">
+                    <input type="text" placeholder="Search Location" class="search__input">
+                    <a href="#" class="search__btn"></a>
+                </div>
+                <div class="col-5">
+                    <div class="profile text-right">
+                        <img src="./img/Cart.png" alt="cart" class="profile__cart">
+                        <img src="./img/profile.png" alt="profile" class="profile__img">
+                        <select name="" id="" class="profile__menu">
+                            <option value="#">Nathan</option>
+                            <option value="#"></option>
+                            <option value="#"></option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <nav class="nav">
+        <div class="container">
+            <div class="row d-flex justify-content-between">
+                <a href="#" class="nav__link"><h4>All Deals</h4></a>
+                <a href="#" class="nav__link"><h4>Hotels</h4></a>
+                <a href="#" class="nav__link"><h4>Activities</h4></a>
+                <a href="#" class="nav__link"><h4>Hotel Day Packages</h4></a>
+                <a href="#" class="nav__link"><h4>Restaurants</h4></a>
+                <a href="#" class="nav__link"><h4>Events</h4></a>
+                <a href="#" class="nav__link"><h4>Rodrigues</h4></a>
+            </div>
+        </div>
+    </nav>
 </body>
 
 </html>
