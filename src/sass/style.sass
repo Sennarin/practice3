@@ -15,7 +15,7 @@ body
 h2
 
     font-weight: bold
-    font-size: 36px
+    +rfs(36)
     line-height: 45px
     text-transform: uppercase
     color: $main-black
@@ -23,21 +23,28 @@ h2
 h3
 
     font-weight: bold
-    font-size: 24px
+    +rfs(24)
     line-height: 45px
     text-transform: uppercase
     color: $main-black
 
 h4
+    font-weight: bold
+    +rfs(18)
+    line-height: 45px
+    text-transform: uppercase
+    color: $main-black
+
+h5
 
     font-weight: bold
-    font-size: 14px
+    +rfs(14)
     line-height: 45px
     text-transform: uppercase
     color: $main-black
 
 p
-    font-size: 12px
+    +rfs(12)
     color: $main-black
     line-height: 15px
 
@@ -46,7 +53,7 @@ p
     background: #F5FAFE
 
     &__text
-        font-size: 10px
+        +rfs(10)
         line-height: 13px
 
     &__icon
@@ -105,7 +112,7 @@ select option
     background: $blue
 
     &__link
-        & h4
+        & h5
             color: white
 
 
@@ -123,7 +130,7 @@ select option
         height: 20px
         background: $accent
         border-radius: 3px
-        font-size: 10px
+        +rfs(10)
         margin: auto 0
         margin-left: 14px
 
@@ -132,7 +139,7 @@ select option
         text-align: center
         vertical-align: middle
         line-height: 20px
-        font-size: 10px
+        +rfs(10)
 
     &__img
         margin-top: 20px
@@ -151,7 +158,7 @@ select option
     border-radius: 4px
 
     &__desc
-        font-size: 8px
+        +rfs(8)
         color: $white-bg
         padding-top: 8px
 
@@ -301,4 +308,86 @@ select option
 
 
 
+.offers
+    padding-top: 105px
+    padding-bottom: 70px
 
+    &__title
+        margin-bottom: 65px
+
+    &__wrapper
+        width: 364px
+        height: 500px
+        background: $blue
+        border-radius: 0px 8px 8px 0px
+
+    &__star
+        margin-right: 2px
+
+        &:last-child
+            margin-right: 0px
+
+    &__header
+        color: $white-bg
+        text-transform: capitalize
+        margin-bottom: 27px
+
+    &__text
+        color: white
+        width: 299px
+        +rfs(14)
+        line-height: 160.6%
+
+    &__icon
+        margin-bottom: 11px
+
+        &:last-child
+            margin-bottom: 0
+
+    &__desc
+        color: white
+
+    &__img
+        margin-right: 14px
+        width: 14px
+        height: 14px
+
+    &__icons
+        margin-top: 40px
+        &__sm
+            margin-top: 23px
+
+    &__discount-price
+        color: white
+        margin-top: 37px
+
+    &__price
+        color: white
+        margin-right: 92px
+
+    &__cta
+        width: 140px
+        height: 40px
+        background: #EC1F46
+        border-radius: 4px
+        color: $white-bg
+
+    &__info
+        padding-left: 25px
+        padding-top: 46px
+
+
+    &__small-block
+        width: 350px
+        height: 250px
+        background: #0A223D
+        border-radius: 0px 0px 8px 8px
+        margin-top: -2px
+
+    &__text-wrapper
+
+        padding-left: 20px
+        padding-top: 5px
+
+    &__bottom-wrapper
+        margin-top: 30px
