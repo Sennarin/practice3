@@ -391,3 +391,67 @@ select option
 
     &__bottom-wrapper
         margin-top: 30px
+
+
+
+.comments
+    padding-top: 40px
+    padding-bottom: 70px
+
+    &__name
+        color: $accent
+        font-weight: bold
+        padding-top: 54px
+
+    &__title
+        margin-bottom: 115px
+
+    &__wrapper
+        width: 731px
+        height: 280px
+        border-radius: 8px
+        background: #F5FAFE
+        position: relative
+
+    &__date
+        padding-top: 10px
+        padding-bottom: 3px
+
+    &__comment
+        width: 537px
+        height: 114px
+        line-height: 160%
+        text-align: justify
+        padding-top: 32px
+        position: relative
+        &::before
+            content: ''
+            display: block
+            background: url(../img/quote-top.png) no-repeat
+            width: 70px
+            height: 49px
+            top: -40px
+            left: -40px
+            position: absolute
+        &::after
+            content: ''
+            display: block
+            background: url(../img/quote-bot.png) no-repeat
+            width: 70px
+            height: 49px
+            position: absolute
+            right: -45px
+            bottom: -50px
+
+
+    &__img
+        position: absolute
+        margin-left: auto
+        margin-right: auto
+        left: 0
+        right: 0
+        top: -50px
+        text-align: center
+        z-index: 1
+
+
